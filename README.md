@@ -6,7 +6,7 @@ DEMO MOTHER
 
 ### Initial configuration - Adding a Submodule ###
 - In root, register the new submodule
-    - `git submodule add https://github.com/juanjosecavila/demo_child demo_child`
+    - `git submodule add https://github.com/juanjosecavila/submodule-child submodule-child`
     - The latest submodule update from 'main'
 - In root, create a commit and push with the added submodule
     - `git add .`
@@ -19,7 +19,7 @@ DEMO MOTHER
     - This has the specific submodule reference, could be outdated
 
 ### Update Submodule from repo ###
-- In the 'demo_child' folder, create a commit and push with the updated submodule
+- In the 'submodule-child' folder, create a commit and push with the updated submodule
     - `git add .`
     - `git commit -m "Updated submodule"`
     - `git push`
